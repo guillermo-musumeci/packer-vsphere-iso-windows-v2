@@ -8,8 +8,9 @@ These templates creates the Template (or VM) directly on the vSphere server and 
 
 # Content: #
 
-* [windows2019.json](./windows2019.json) --> Windows Server 2019 Packer JSON file Base
 * [autounattend.xml](./autounattend.xml) --> Answer file for unattended Windows setup
+* [credentials.json](./credentials.json) --> Credential file
+* [windows2019.json](./windows2019.json) --> Windows Server 2019 Packer JSON file Base
 
 Scripts:
 * [scripts/disable-network-discovery.cmd](./scripts/disable-network-discovery.cmd) --> Script to Disable network discovery
