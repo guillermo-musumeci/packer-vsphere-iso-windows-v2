@@ -24,7 +24,7 @@ Scripts:
 * [scripts/install-vm-tools.cmd](./scripts/install-vm-tools.cmd) --> Script to Install VMware Tools
 * [scripts/set-temp.ps1](./scripts/set-temp.ps1) --> Script to Set Temp Folders
 
-Tested with **VMware ESX 6.7** | User: Administrator | Password: S3cr3t0!
+Tested with **VMware ESX 6.7** and **VMware ESX 7.0** | User: Administrator | Password: S3cr3t0!
 
 # Requirements: #
 
@@ -33,7 +33,3 @@ Tested with **VMware ESX 6.7** | User: Administrator | Password: S3cr3t0!
 # How to use: #
 
 execute **packer build win2019.base.json**
-
-# Credits: #
-
-Inspired by [Stefan Scherer](https://github.com/StefanScherer/packer-windows), [Mischa Taylor](https://sheska.com/automating-windows-server-2016-installs) and [Dmitry Teslya](https://dteslya.engineer/automation/2018-12-20-creating_vm_templates_with_packer) works.
